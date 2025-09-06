@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="cm_base_core_action_view_list_inherit" model="ir.ui.view">
+        <field name="name">cm.base.core.ir.actions.actions.list.inherit</field>
+        <field name="model">ir.actions.actions</field>
+        <field name="inherit_id" ref="base.action_view_tree"/>
+        <field name="arch" type="xml">
+            <field name="name" position="before">
+                <field name="external_xml_id"/>
+            </field>
+        </field>
+    </record>
+</odoo>
