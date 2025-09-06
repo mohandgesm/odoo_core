@@ -3,9 +3,28 @@
     'name': "Odoo core",
     'version': '18.0.1.0.0',
 
-    'summary': "Customization the odoo core",
+   'version': '18.0.1.0.0',
+    'summary': 'A comprehensive tool for managing a model\'s actions.',
+    'description': """
+                This module is designed for Odoo developers and administrators who need to quickly audit and manage all actions related to a specific model. By adding a dedicated tab to the "Models" menu, it provides a centralized view of all window actions, server actions, and report actions that are bound to a model, significantly simplifying the development and maintenance workflow.
 
-    'description': """I am customize the odoo core by adding new features for odoo base module""",
+                Key Features:
+                - New "Actions" Tab: Adds a dedicated, easy-to-find tab to the ir.model form view.
+                - Comprehensive Listing: Displays all types of ir.actions records (act_window, server, report, etc.) that are bound to the current model.
+                - External ID Visibility: Shows the External XML ID for each action, which is essential for development, data import/export, and version control.
+                - Simplified Navigation: Provides a direct link to the action's form view for quick access and editing.
+                - Improved Workflow: Eliminates the need to manually search through different menus to find all related actions for a model.
+
+                How It Works:
+                1. Navigate to Settings > Technical > Database Structure > Models.
+                2. Select any model from the list (e.g., Contacts, Sale Order).
+                3. A new "Actions" tab will now be visible on the form view.
+                4. Click the "Actions" tab to see a list of all actions bound to the selected model.
+                5. You can click on any action in the list to open and edit its form.
+
+                Benefits for Odoo Professionals:
+                This module transforms a time-consuming administrative task into a single-click operation. It is a must-have for any Odoo developer, consultant, or administrator who needs to maintain and understand the structure of complex Odoo applications.
+""",
 
     'author': "GK Software",
     'website': "https://www.google.com",
