@@ -33,4 +33,6 @@ Mohand KG
 **License:**
 This module is licensed under the [LGPL-3 License](https://www.gnu.org/licenses/lgpl-3.0.en.html).
 
+# Example
+
 <img width="1910" height="961" alt="cover" src="https://github.com/user-attachments/assets/b9ec6a98-d198-4d34-ad00-bf97225c9344" />
