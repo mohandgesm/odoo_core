@@ -11,4 +11,17 @@
             </field>
         </field>
     </record>
+
+
+    <record id="cm_core_action_view_inherit" model="ir.ui.view">
+        <field name="name">cm.core.ir.actions.actions</field>
+        <field name="model">ir.actions.actions</field>
+        <field name="inherit_id" ref="base.action_view"/>
+        <field name="arch" type="xml">
+            <field name="name" position="before">
+                <field name="external_xml_id" />
+            </field>
+        </field>
+    </record>
 </odoo>
+
