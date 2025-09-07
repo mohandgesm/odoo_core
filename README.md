@@ -24,7 +24,7 @@ This module enhances the Odoo developer experience by adding a new tab to the "M
 3.  You will now see a new `Actions` tab on the form view.
 4.  Click the tab to see a list of all actions bound to the `res.partner` model.
 
-#Contributing
+# Contributing
 Contributions are welcome! If you find a bug or have an idea for an improvement, please feel free to open an issue or submit a pull request on this repository.
 
 **Author:**
